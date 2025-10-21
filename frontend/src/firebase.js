@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDWY0DxtyKKzeuOjLbYBTsEkA3sl8fbYW0xxx",
+  apiKey: "AIzaSyDWY0DxtyKKzeuOjLbYBTsEkA3sl8fbYW0",
   authDomain: "farmbuddy-bd355.firebaseapp.com",
   projectId: "farmbuddy-bd355",
   storageBucket: "farmbuddy-bd355.firebasestorage.app",
@@ -16,3 +16,4 @@ const app = initializeApp(firebaseConfig);
 
 
 export default app; 
+
