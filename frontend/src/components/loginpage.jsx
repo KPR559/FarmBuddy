@@ -25,7 +25,7 @@ function LoginPage({ onLogin }) {
 
   return (
     <div>
-      <h2>Login</h2>
+      <h2>Sign in</h2>
       <form onSubmit={handleLogin}>
         <input
           type="email"
@@ -43,7 +43,7 @@ function LoginPage({ onLogin }) {
           required
         />
         <br />
-        <button type="submit">Login</button>
+        <button type="submit">Sign in</button>
       </form>
       <button onClick={() => setShowForgot(true)} style={{marginTop: "10px"}}>
         Forgot Password?
